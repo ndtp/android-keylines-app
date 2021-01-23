@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Keylines</string>
+    <string name="keylines_title">Keylines</string>
+    <string name="keylines_desc">Display keylines so that you can keep your app looking fresh.</string>
+    <string name="keylines_hide">Hide keylines</string>
+    <string name="keylines_show">Show keylines</string>
+    <string name="keyline_service_is_running">The keyline service is running</string>
+
+    <string name="ruler_title">Ruler</string>
+    <string name="ruler_desc">Show the distance between two moveable lines. Useful for checking the amount of dps between two views.</string>
+    <string name="ruler_hide">Hide ruler</string>
+    <string name="ruler_show">Show ruler</string>
+    <string name="ruler_service_is_running">The ruler service is running</string>
+
+    <string name="turn_on_service">Turn on</string>
+    <string name="turn_off_service">Turn off</string>
+
+    <string name="notification_turn_off">Turn off</string>
+</resources>

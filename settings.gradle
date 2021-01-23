@@ -1,0 +1,2 @@
+rootProject.name = "Keylines App"
+include ':app'

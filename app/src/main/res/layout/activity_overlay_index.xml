@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brick_plants"
+    tools:context="com.keylines.app.IndexActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            android:elevation="16dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/app_padding_normal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/keylines_title"
+                    android:textAppearance="@style/Typography.Heading" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="0"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/keylines_desc"
+                    android:textAppearance="@style/Typography.Body.Subdued" />
+
+                <Button
+                    android:id="@+id/keylines_turn_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/turn_on_service" />
+
+                <Button
+                    android:id="@+id/keylines_turn_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/turn_off_service"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/app_padding_normal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/app_padding_normal"
+                    android:paddingBottom="@dimen/app_padding_normal"
+                    android:text="@string/ruler_title"
+                    android:textAppearance="@style/Typography.Heading" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:maxLines="0"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/ruler_desc"
+                    android:textAppearance="@style/Typography.Body.Subdued" />
+
+                <Button
+                    android:id="@+id/ruler_turn_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/turn_on_service" />
+
+                <Button
+                    android:id="@+id/ruler_turn_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/app_padding_normal"
+                    android:text="@string/turn_off_service"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
