@@ -1,2 +1,8 @@
 rootProject.name = "Keylines App"
 include ':app'
+include ':library'
+
+project(':app').name = "App"
+
+project(':library').projectDir = new File(rootProject.projectDir, './vendor/android-keylines-library/library')
+project(':library').name = "Library"

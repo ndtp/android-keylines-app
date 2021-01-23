@@ -1,0 +1,3 @@
+[submodule "vendor/android-keylines-library"]
+	path = vendor/android-keylines-library
+	url = git@github.com:Keylines/android-keylines-library.git
